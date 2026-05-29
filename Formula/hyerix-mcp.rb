@@ -1,28 +1,28 @@
 class HyerixMcp < Formula
   desc "MCP server for NATS — 14 read-safe stdio tools for AI agents"
   homepage "https://hyerix.ai"
-  version "0.1.0"
+  version "0.1.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/hyerix/hyerix-mcp/releases/download/v0.1.0/hyerix-mcp-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "019a543cf36c9168b3bacdf11efba0a3ad6511aa81a1cb4dc58966271f8f303d"
+      url "https://github.com/hyerix/hyerix-mcp/releases/download/v0.1.1/hyerix-mcp-0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "b3ea2818509d1f5b3c583020b0e1e38e8cee448147772f4c83a97312cdd211cb"
     end
     on_intel do
-      url "https://github.com/hyerix/hyerix-mcp/releases/download/v0.1.0/hyerix-mcp-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "57a939648f89842c89b3933e169e995b1446c6bf84e0131301ca3feb849ae1b7"
+      url "https://github.com/hyerix/hyerix-mcp/releases/download/v0.1.1/hyerix-mcp-0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "23f9c63386ef3ec975189621d2dea005837b3f39520e5ea2bb7baacea6ab26d9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hyerix/hyerix-mcp/releases/download/v0.1.0/hyerix-mcp-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d928e903e710afa03e4b6df375fe61bc4c4906d25844f7088dc018425f8447ae"
+      url "https://github.com/hyerix/hyerix-mcp/releases/download/v0.1.1/hyerix-mcp-0.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d14650f6b2adbbf3cda87d5f39af0def6b4cac6f209b365bf366551c2570bc95"
     end
     on_intel do
-      url "https://github.com/hyerix/hyerix-mcp/releases/download/v0.1.0/hyerix-mcp-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "87ccc584174b3ed32d13fdd5f5690dc6fea0a1711819d9a82990bbc885f0c1f7"
+      url "https://github.com/hyerix/hyerix-mcp/releases/download/v0.1.1/hyerix-mcp-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "46f4835b550d75c2a3a037ebfa04ef4825b946ac5f69df76ccc7034713094af5"
     end
   end
 
