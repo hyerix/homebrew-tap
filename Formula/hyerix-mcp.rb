@@ -27,7 +27,7 @@ class HyerixMcp < Formula
   end
 
   def install
-    bin.install Dir["hyerix-mcp-*/hyerix-mcp"].first
+    bin.install "hyerix-mcp"
   end
 
   test do
