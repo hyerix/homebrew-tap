@@ -7,22 +7,22 @@ class HyerixMcp < Formula
   on_macos do
     on_arm do
       url "https://github.com/hyerix/hyerix-mcp/releases/download/v0.1.1/hyerix-mcp-0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "b3ea2818509d1f5b3c583020b0e1e38e8cee448147772f4c83a97312cdd211cb"
+      sha256 "32bee7d2ce4d7c4b5d7f75b7b3a8c7a910be1bef5627005780b7c491a449b792"
     end
     on_intel do
       url "https://github.com/hyerix/hyerix-mcp/releases/download/v0.1.1/hyerix-mcp-0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "23f9c63386ef3ec975189621d2dea005837b3f39520e5ea2bb7baacea6ab26d9"
+      sha256 "084367bbfc64e82848da5c8957e1e805b1c2f72f0a37215bddc0a3b8744caff7"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/hyerix/hyerix-mcp/releases/download/v0.1.1/hyerix-mcp-0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d14650f6b2adbbf3cda87d5f39af0def6b4cac6f209b365bf366551c2570bc95"
+      sha256 "49608dd67df4ce7069e0e75d053f68a93a8c3b8388c0229a7f13566fca07dce3"
     end
     on_intel do
       url "https://github.com/hyerix/hyerix-mcp/releases/download/v0.1.1/hyerix-mcp-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "46f4835b550d75c2a3a037ebfa04ef4825b946ac5f69df76ccc7034713094af5"
+      sha256 "fd35362bcb8725f0821a6be65640527c7b45979479ae2fedc4d6bca16ff3e98c"
     end
   end
 
